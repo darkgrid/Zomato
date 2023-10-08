@@ -11,6 +11,7 @@ const HomePage = () => {
       
       {/* Diff Screen */}
       <Footer />
+      i love foods
     </div>
   )
 }
