@@ -1,11 +1,8 @@
 import React from 'react'
+import HomePage from './pages/home'
 
 const App = () => {
-  return (
-    <div>
-      hello this zomato 
-    </div>
-  )
-}
+  return <HomePage />;
+};
 
 export default App
