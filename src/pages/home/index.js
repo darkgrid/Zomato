@@ -4,16 +4,23 @@ import Taboptions from '../../components/common/taboptions'
 import Footer from '../../components/common/foorter'
 
 const HomePage = () => {
+
+  const [activeTab , setActiveTab] =
+
   return (
     <div>
       <Header />
       <Taboptions />
       
-      {/* Diff Screen */}
+      {getCorrectScreen()}
       <Footer />
       
    </div>
   )
+}
+
+const getCorrectScreen=()=>{
+    switch()
 }
 
 export default HomePage
